@@ -1,14 +1,14 @@
 mixin dossier
   response#dossier.
-    [checks service records] Being the chief engineer of a Cloud Exploration Vessel seems like a step down from being a spelling bee pronouncer.
+    [checks service records] Être l'ingénieur en chef d'un vaisseau d'exploration du Cloud semble être un pas en arrière par rapport à être un prononciateur de concours d'orthographe.
 
 mixin what_this
   response#what_this.
-    What's this area of the ship all about?
+    C'est quoi cette zone du vaisseau ?
 
 mixin about
   response#about.
-    Could you remind me who you are, and what you do on the ship?
+    Pouvez-vous me rappeler qui vous êtes, et ce que vous faites sur le vaisseau ?
 
 conversation(display_name="Marcus")
   case lastResponse
@@ -36,24 +36,24 @@ conversation(display_name="Marcus")
   statements
     statement#what_this
       text.
-        This is the engineering deck, where we take care of the beating heart of 
-        the Fog Owl - a state-of-the-art <span class="highlight">packet transmission drive</span>. The drive 
-        systems propel clusters of Operators connected to The Cloud at incredible 
-        speeds between virtual worlds.<br/><br/>This is the tech we think will
-        finally allow us to stay one step ahead of the Legacy Systems.
+        C'est le pont d'ingénierie, où nous nous occupons du cœur battant du Fog Owl. 
+        le Fog Owl - un <span class="highlight">mécanisme de transmission de paquets</span> de pointe. Les systèmes d'entraînement 
+        propulsent des grappes d'agents connectés au Cloud à des vitesses incroyables entre des mondes virtuels. 
+        entre les mondes virtuels.<br/><br/>C'est la technologie qui, selon nous, va
+        nous permettra enfin de garder une longueur d'avance sur les Anciens Systèmes.
     
     statement#dossier
       text.
-        Hah, they put that in there did they? In addition to my fine technical 
-        skills, I do take pride in my excellent diction. And knowing word 
-        origins is more useful than you might think.
+        Ah, ils ont mis ça là-dedans, n'est-ce pas ? En plus de mes compétences techniques 
+        techniques, je suis fier de mon excellente diction. Et connaître l'origine des mots 
+        est plus utile que vous ne le pensez.
 
     statement#about
       text.
-        Sure thing. Marcus, chief engineer aboard the Fog Owl. I make sure our 
-        bird keeps singing, and right now it's a beautiful tune. I'll let you 
-        know right away if any of our systems start acting up.
+        C'est sûr. Marcus, ingénieur en chef à bord du Fog Owl. Je m'assure que notre 
+        oiseau continue de chanter, et en ce moment c'est un bel air. Je vous ferais savoir 
+        tout de suite si un de nos systèmes commence à faire des siennes.
 
     statement#default
       text.
-        Operator. Systems are green across the board - all good back here.
+        Agent. Les systèmes sont verts sur toute la ligne - tout va bien ici.

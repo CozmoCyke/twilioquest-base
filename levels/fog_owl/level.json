@@ -1,8 +1,8 @@
 {
   "title": "Fog Owl",
-  "description": "Your mobile base of operations in The Cloud.",
-  "questTitle": "Aboard the Fog Owl",
-  "questDescription": "Explore The Cloud using the nav map. Brush up tech skills in VR training.",
+  "description": "Votre base mobile d'opérations dans le Cloud.",
+  "questTitle": "A bord du Fog Owl",
+  "questDescription": "Explorez les Clouds à l'aide de la carte de navigation. Améliorez vos compétences techniques grâce à la formation VR.",
   "is_mission": false,
   "backgroundEffect": {
     "key": "starfield",
@@ -10,14 +10,14 @@
   },
   "backgroundMusic": "fogowl_629966b",
   "flavorTextOverrides": {
-    "crewPod": "It looks like this pod is configured for a different user. I should use <span class=\"highlight\">my VR pod</span> instead. It's the <span class=\"highlight\">open pod with the green light on top</span>.",
-    "crewComplement": "Beds for a bridge crew of four... When the Owl's ready to fly, I should <span class=\"highlight\">recruit a team</span> for the mission.",
-    "chestNothing": "Does <span class=\"highlight\">this chest</span> open? Guess not... Well, it was worth a shot.",
-    "replacementParts": "Replacement parts for a neural Cloud interface. Never hurts to be prepared.",
-    "standupSet": "\"What did the zero say to the eight? <span class=\"highlight\">Nice belt!</span>\" ... Sadly, that's the best one in this standup routine. I hope whoever wrote this iterates a few more times before going on stage.",
-    "fuel": "Wonder what kind of fuel this thing runs on...",
-    "navigationSystemOffline": "The <span class=\"highlight\">navigation system</span> lets the ship travel to different parts of The Cloud. Looks like it's still offline...",
-    "battleTactics": "Notes on battle tactics when facing the forces of the <span class=\"red\">Legacy Systems</span>. Someone expects trouble once we get the ship online...",
-    "airlock": "An airlock, I think. If this is a virtual environment, will I still get <span class=\"highlight\">sucked out into space</span> if I open it? Not sure I want to find out."
+    "crewPod" : " Il semble que ce pod soit configuré pour un autre utilisateur. Je devrais utiliser <span class=\"highlight\">mon pod VR</span> à la place. C'est le <span class=\"highlight\">pod ouvert avec la lumière verte sur le dessus</span>.",
+    "crewComplement" : "Des lits pour un équipage de pont de quatre personnes... Lorsque le Hibou sera prêt à voler, je devrais <span class=\"highlight\">recruter une équipe</span> pour la mission.",
+    "chestNothing" : "Est-ce que <span class=\"highlight\">ce coffre</span> s'ouvre ? Je suppose que non... Bon, ça valait le coup d'essayer.",
+    "replacementParts" : "Pièces de rechange pour une interface Cloud neurale. Ça ne fait jamais de mal d'être préparé.",
+    "standupSet": "\"Qu'est-ce que le zéro a dit au huit ? <span class=\"highlight\">Belle ceinture !</span>\" ... Malheureusement, c'est la meilleure de ce numéro de stand-up. J'espère que celui qui l'a écrit l'a répété plusieurs fois avant de monter sur scène.",
+    "fuel" : "Je me demande avec quel genre de carburant cette chose fonctionne...",
+    "navigationSystemOffline" : "Le <span class=\"highlight\">système de navigation</span> permet au vaisseau de se rendre dans différentes parties du Cloud. On dirait qu'il est toujours hors ligne...",
+    "battleTactics" : "Notes sur la tactique de combat face aux forces des <span class=\"red\">Legacy Systems</span>. Quelqu'un s'attend à des ennuis dès que nous aurons mis le vaisseau en ligne...",
+    "sas" : "Un sas, je crois. Si c'est un environnement virtuel, est-ce que je serai toujours <span class=\"highlight\">aspiré dans l'espace</span> si je l'ouvre ? Je ne suis pas sûr de vouloir le découvrir."
   }
 }

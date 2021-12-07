@@ -1,132 +1,132 @@
 // Responses
 mixin where_am_i
   response#where_am_i.
-    Where am I right now?
+    Où suis-je en ce moment ?
 
 mixin who_are_you
   response#who_are_you.
-    I'd like to get to know you better - can you tell me about yourself?
+    J'aimerais mieux te connaître - peux-tu me parler de toi ?
 
 mixin about_robot
   response#about_robot.
-    Are you a robot?
+    Es-tu un robot ?
 
 mixin about_fun
   response#about_fun.
-    So - what do you like to do for fun?
+    Alors, qu'est-ce que tu aimes faire pour t'amuser ?
 
 mixin about_sad
   response#about_sad.
-    I'm sorry to hear that - is there anything I can do to help?
+    Je suis désolé d'entendre ça - est-ce que je peux faire quelque chose pour t'aider ?
 
 mixin back_to_main
   response#back_to_main.
-    Actually, I had other questions.
+    En fait, j'avais d'autres questions.
 
 mixin what_next
   response#what_next.
-    What should I do next?
+    Que dois-je faire ensuite ?
 
 mixin about_tq_history
   response#about_tq_history.
-    What can you tell me about the history of the program?
+    Que pouvez-vous me dire sur l'histoire du programme ?
 
-mixin about_tq_first_operators
+mixin about_tq_first_operators 
   response#about_tq_first_operators.
-    First Operators? I'd love to meet them some day.
+    Les premiers agents ? J'aimerais bien les rencontrer un jour.
 
 mixin about_tq_code
   response#about_tq_code.
-    What is the Operator's Code?
+    Quel est le code de l'agent ?
 
 mixin about_tq_operator
   response#about_tq_operator.
-    What are the duties of an Operator?
+    Quelles sont les fonctions d'un agent ?
 
 mixin about_tq_legacy_systems
   response#about_tq_legacy_systems.
-    What do we know about the "Legacy Systems"?
+    Que savons-nous des "Anciens systèmes " ?
 
-mixin about_tq_legacy_systems_bolder
+mixin à propos de_tq_legacy_systems_bolder
   response#about_tq_legacy_systems_bolder.
-    They're becoming bolder? How so?
+    Ils deviennent plus audacieux ? Comment cela ?
 
-mixin about_tq_legacy_systems_do
+mixin à propos de_tq_legacy_systems_do
   response#about_tq_legacy_systems_do.
-    What do we intend to do about this?
+    Qu'avons-nous l'intention de faire à ce sujet ?
 
 mixin about_twilio_what
   response#about_twilio_what.
-    Communications APIs you say... like what?
+    Des API de communication vous dites... comme quoi ?
 
 mixin about_twilio_name
   response#about_twilio_name.
-    "Twilio" is kind of a goofy name - what does it mean?
+    "Twilio" est un nom un peu bizarre - qu'est-ce que cela signifie ?
 
 mixin about_twilio_why
   response#about_twilio_why.
-    Why would Twilio create something like TwilioQuest?
+    Pourquoi Twilio créerait-il quelque chose comme TwilioQuest ?
 
 mixin about_world_cloud
   response#about_world_cloud.
-    So... I'm literally in "The Cloud" right now?
+    Donc... je suis littéralement dans "Le Cloud" en ce moment ?
 
 mixin about_world_everyone_else
   response#about_world_everyone_else.
-    Is everyone on the Internet here in The Cloud too?
+    Est-ce que tout le monde sur Internet est aussi dans le Cloud ?
 
 mixin about_world_responsibility
   response#about_world_responsibility.
-    That's unfortunate - everyone should understand The Cloud like we do.
+    C'est regrettable - tout le monde devrait comprendre le Cloud comme nous le faisons.
 
 mixin about_world_space
   response#about_world_space.
-    So The Cloud is represented for me using my existing mental models... 
-    is that why The Cloud looks like outer space?
+    Donc le Cloud est représenté pour moi en utilisant mes modèles mentaux existants... 
+    C'est pourquoi le Cloud ressemble à l'espace ?
 
 mixin questions_about_world
   response#questions_about_world.
-    Where am I right now?
+    Où suis-je en ce moment ?
 
 mixin more_questions_about_world
   response#more_questions_about_world.
-    Can I ask something else about The Cloud?
+    Puis-je demander autre chose à propos du Cloud ?
 
 mixin more_questions_about_twilio
   response#more_questions_about_twilio.
-    I had other questions about Twilio.
+    J'avais d'autres questions sur Twilio.
 
 mixin questions_about_twilio
   response#questions_about_twilio.
-    Now that you mention it... what even is a "Twilio"?
+    Maintenant que vous le dites... Qu'est-ce qu'un "Twilio" ?
 
 mixin more_questions_about_tq
   response#more_questions_about_tq.
-    I had other questions about TwilioQuest.
+    J'avais d'autres questions sur TwilioQuest.
 
 mixin questions_about_tq
   response#questions_about_tq.
-    Can you tell me more about the TwilioQuest program?
+    Pouvez-vous m'en dire plus sur le programme TwilioQuest ?
 
 mixin more_questions_about_you
   response#more_questions_about_you.
-    Mind if I ask something else about you?
+    Ça vous dérange si je vous demande autre chose sur vous ?
 
 mixin questions_about_you
   response#questions_about_you.
-    I'd like to get to know you better - can you tell me about yourself?
+    J'aimerais mieux vous connaître - pouvez-vous me parler de vous ?
 
 mixin questions_main
   response#questions_main.
-    Let's talk about something else.
+    Parlons plutôt d'autre chose.
 
 mixin how_get_here
   response#how_get_here.
-    This may sound like a silly question, but why am I here?
+    Cela peut sembler être une question stupide, mais pourquoi suis-je ici ?
 
 mixin answer_some_questions
   response#answer_some_questions.
-    I have a few more questions about all of this...
+    J'ai encore quelques questions sur tout ça...
 
 conversation(display_name="Cedric")
   case lastResponse
@@ -310,255 +310,250 @@ conversation(display_name="Cedric")
   statements
     statement#about_tq_brief
       text.
-        Yes Operator. What would you like to know?
+        Oui, agent. Que voulez-vous savoir ?
 
     statement#about_tq_main
       text.
-        The #[span.highlight TwilioQuest] program is a top-secret organization 
-        dedicated to exploring and safeguarding the wild frontier of The Cloud.
-        #[span.highlight Operators] in the TwilioQuest program - people like you - are at the
-        forefront of this important mission.
+        Le programme #[span.highlight TwilioQuest] est une organisation top-secrète 
+        dédiée à l'exploration et à la sauvegarde de la frontière sauvage du Cloud.
+        #Les agents du programme TwilioQuest - des personnes comme vous - sont à
+        l'avant-garde de cette importante mission.
 
     statement#about_tq_legacy_systems
       text.
-        Unfortunately, we know very little about the specific plans and membership of
-        the #[span.red Legacy Systems]. We do know they are a vast network of 
-        powerful individuals, always seeking to protect their hoarded wealth and 
-        influence. Until recently, they had been content to operate from the shadows.
-        Now, their operations grow bolder and more brazen every day.
+        Malheureusement, nous savons très peu de choses sur les plans spécifiques et les membres de
+        les #[span.red Legacy Systems]. Nous savons qu'il s'agit d'un vaste réseau de 
+        d'individus puissants, cherchant toujours à protéger leurs richesses amassées et leur 
+        influence. Jusqu'à récemment, ils se contentaient d'agir dans l'ombre.
+        Maintenant, leurs opérations deviennent plus audacieuses et plus effrontées chaque jour.
 
     statement#about_tq_legacy_systems_bolder
       text.
-        It seems not a day goes by without a new security breach, social media
-        misinformation campaign, or abuse of privileged data access. These acts
-        may seem random, but our intelligence indicates they are connected. We
-        believe this is only the beginning of a larger offensive by the 
+        Il semble qu'il ne se passe pas un jour sans qu'il y ait une nouvelle faille de sécurité, une campagne de désinformation sur les médias sociaux ou un abus d'accès privilégié aux données.
+        Ces actes peuvent sembler aléatoires, mais nos renseignements indiquent qu'ils sont liés. Nous
+        croyons que ce n'est que le début d'une offensive plus large par les 
         #[span.red Legacy Systems].
 
     statement#about_tq_legacy_systems_do
       text.
-        We will respond by swelling the ranks of the #[span.highlight Operators].
-        The more people we have exploring The Cloud, adhering 
-        to #[span.highlight The Operator's Code],
-        the better our chances of stamping out the influence of the 
-        #[span.red Legacy Systems]. Even in the vastness of The Cloud, we will
-        ensure there is no dark corner where the Legacy Systems can hide.
+        Nous répondrons en grossissant les rangs des #[span.highlight Agents].
+        Plus nous aurons de personnes explorant le Cloud, adhérant 
+        à #[span.highlight Le Code de l'Agent],
+        plus nous aurons de chances d'éradiquer l'influence des 
+        #[span.red Ancients Systèmes]. Même dans l'immensité du Cloud, 
+        nous nous assurerons qu'il n'y a aucun coin sombre où ils puissent se cacher.
 
     statement#about_tq_history
       text.
-        In the year 2013, the TwilioQuest program trained a handful of developers, 
-        the #[span.highlight First Operators], to take up the tools of software development in a 
-        mission to save The Cloud. Today, advances in cloud exploration 
-        technology allow us to further scale our recruitment efforts. This is
-        most fortunate, as the #[span.red Legacy Systems] seem to be gaining strength at the
-        same time.
+        En 2013, le programme TwilioQuest a formé une poignée de développeurs, 
+        les #[span.highlight Premiers Agents], à prendre en main les outils du développement logiciel dans une 
+        mission de sauver le Cloud. Aujourd'hui, les progrès de la technologie d'exploration du Cloud 
+        nous permettent d'intensifier nos efforts de recrutement. Ceci est
+        chanceux, car les #[span.red Ancients Systèmes] semblent gagner en force au même moment.
 
     statement#about_tq_first_operators
       text.
-        You will get your chance to meet them in due time. But before that can happen,
-        the Fog Owl must be made ready for exploration, and you must focus on
-        your Operator training.
+        Vous aurez l'occasion de les rencontrer en temps voulu. Mais avant que cela n'arrive,
+        le Fog Owl doit être prêt pour l'exploration, et tu dois te concentrer sur
+        ta formation d'agent.
       speech.
-        You will get your chance to meet them in due time. But before that can happen,
-        the Fawg Owl must be made ready for exploration, and you must focus on
-        your Operator training.
+        Vous aurez l'occasion de les rencontrer en temps voulu. Mais avant que cela n'arrive,
+        le Fawg Owl doit être prêt pour l'exploration, et tu dois te concentrer sur
+        ta formation d'agent.
 
     statement#about_tq_operator
       text.
-        Operators are not part of a formal command structure, and have no
-        responsibilities as such. However, to be considered an Operator
-        and receive the support of the TwilioQuest program, members must
-        adhere to the #[span.highlight Operator's Code].
+        Les agents ne font pas partie d'une structure de commandement formelle et n'ont pas de responsabilités en tant que telles.
+        Cependant, pour être considéré comme un agent
+        et bénéficier du soutien du programme TwilioQuest, les membres doivent
+        adhérer au #[span.highlight Code de l'Agent].
 
     statement#about_tq_code
       text.
-        Operators are sworn to use their abilities only to write code that
-        promotes #[span.highlight hope, power, and freedom] for all of humanity.
-        Those that write code used to steal, oppress, or deceive
-        cannot be called Operators. Intentionally or not, developers who use
-        their skills in this way have become part of the 
-        #[span.red Legacy Systems].
+        Les agents ont juré d'utiliser leurs capacités uniquement pour écrire du code qui
+        promeut [span.highlight l'espoir, le pouvoir et la liberté] pour toute l'humanité.
+        Ceux qui écrivent du code utilisé pour voler, opprimer, ou tromper
+        ne peuvent pas être appelés des agents. Intentionnellement ou non, les développeurs qui utilisent
+        leurs compétences de cette façon font partie de la communauté des développeurs des
+        #[span.red Ancients Systèmes].
       speech.
-        Operators are sworn to use their abilities only to write code that
-        promotes hope. power. and freedom. for all of humanity.
-        Those that write code used to steal. oppress. or deceive.
-        cannot be called Operators. Intentionally or not, developers who use
-        their skills in this way have become part of the Legacy Systems.
+        Les agents ont juré d'utiliser leurs capacités uniquement pour écrire du code qui
+        promeut l'espoir, le pouvoir et la liberté pour toute l'humanité.
+        Ceux qui écrivent du code utilisé pour voler, opprimer ou tromper.
+        ne peuvent être appelés des agents. Intentionnellement ou non, les développeurs qui utilisent
+        leurs compétences de cette manière font partie des Ancients Systèmes.
 
     statement#about_twilio_what
       text.
-        Using Twilio APIs, your software applications can communicate over many
-        different channels, including SMS, WhatsApp, video, voice, fax, email,
-        and others. Twilio also provides higher level tools for use
-        cases like contact centers, two-factor authentication, and A.I. bots.
-        You can learn how to use these APIs through the training exercises in 
-        the #[span.highlight VR Training Room].
+        Grâce aux API de Twilio, vos applications logicielles peuvent communiquer sur de nombreux
+        différents canaux, notamment les SMS, WhatsApp, la vidéo, la voix, le fax, l'e-mail,
+        et d'autres. Twilio fournit également des outils de niveau supérieur pour des cas d'utilisation tels que les centres de contact, l'authentification à deux facteurs et les bots d'IA.
+        Vous pouvez apprendre à utiliser ces API par le biais des exercices de formation dans 
+        #[span.highlight la salle de formation de RV].
 
     statement#about_twilio_name
       text.
-        The name "Twilio" has no other meaning. It was chosen by the founders
-        because of its brevity, and the availability of a dot com domain of the same
-        name. It was assumed that a day would come where the company would
-        change its name. That day never arrived.
+        Le nom "Twilio" n'a pas d'autre signification. Il a été choisi par les fondateurs
+        en raison de sa brièveté, et de la disponibilité d'un domaine point com du même
+        nom. Il était prévu qu'un jour l'entreprise changerait de nom.
+        Ce jour n'est jamais venu.
 
     statement#about_twilio_brief
       text.
-        I am happy to tell you what I know.
+        Je suis heureux de vous dire ce que je sais.
 
     statement#about_twilio_main
       text.
-        #[a(href="https://www.twilio.com") Twilio] is a provider of 
-        communications APIs and infrastructure based in San Francisco, California.
-        Twilio is the primary sponsor of the TwilioQuest program, although officially,
-        they disavow any knowledge of our clandestine activities.
+        #[a(href="https://www.twilio.com") Twilio] est un fournisseur de 
+        d'API et d'infrastructures de communication basé à San Francisco, en Californie.
+        Twilio est le principal sponsor du programme TwilioQuest, bien qu'officiellement,
+        ils désavouent toute connaissance de nos activités clandestines.
 
     statement#about_world_everyone_else
       text.
-        Other Internet users are indeed present in The Cloud, but the interfaces
-        they use to perceive it are not as advanced as yours. While they live
-        and work in the virtual worlds of The Cloud, most Internet users view
-        these worlds as if through a keyhole.
+        D'autres utilisateurs d'Internet sont effectivement présents dans le Cloud, mais les interfaces
+        qu'ils utilisent pour le percevoir ne sont pas aussi avancées que les vôtres. Bien qu'ils vivent
+        et travaillent dans les mondes virtuels du Cloud, la plupart des utilisateurs d'Internet regardent
+        ces mondes comme à travers un trou de serrure.
 
     statement#about_world_responsibility
       text.
-        Educating the public about The Cloud is important, but consider the following.
-        Do you know how water flows through your faucet, or how an engine moves
-        a train along the tracks? We trust that those who contribute these
-        wonders to our world keep our safety and best interest in mind. Such
-        is our responsibility as we build virtual worlds in The Cloud.
+        Il est important d'informer le public sur le Cloud, mais réfléchissez à ce qui suit.
+        Savez-vous comment l'eau coule dans votre robinet ou comment un moteur fait avancer un train sur les rails ?
+        Nous sommes convaincus que ceux qui contribuent à ces
+        merveilles à notre monde gardent notre sécurité et notre intérêt à l'esprit. 
+        Telle est notre responsabilité lorsque nous construisons des mondes virtuels dans le nuage.
 
     statement#about_world_space
       text.
-        Just so. The enormity of space, and the ability to traverse it
-        in a ship, are concepts your brain knows how to interpret. Your neural
-        interface uses these metaphors to allow you to more easily explore and
-        understand the virtual worlds of The Cloud.
+        Juste comme ça. L'immensité de l'espace, et la possibilité de le traverser
+        dans un vaisseau, sont des concepts que votre cerveau sait interpréter. Votre interface neuronale
+        utilise ces métaphores pour vous permettre d'explorer plus facilement
+        et de comprendre les mondes virtuels du Cloud
 
     statement#about_world_cloud
       text.
-        You are "literally" in The Cloud in the ...millenial... sense of the word?
-        Your physical body is still located in the real world, but you have
-        formed a #[span.highlight direct neural connection] to The Cloud. This enables you to
-        interpret data from The Cloud at incredibly high speeds, presented 
-        using sensory input and mental models you built to interpret data
-        from the real world.
+        Vous êtes "littéralement" dans le Cloud dans le sens ...millénaire... du terme ?
+        Votre corps physique est toujours situé dans le monde réel, mais vous avez
+        formé une [span.highlight connexion neuronale directe] avec le Cloud. Cela vous permet
+        d'interpréter les données du Cloud à des vitesses incroyablement élevées, présentées 
+        en utilisant les entrées sensorielles et les modèles mentaux que vous avez construits pour interpréter les données
+        du monde réel.
       speech.
-        You are "literally" in The Cloud in the #[break(time="200ms")]
-        #[prosody(pitch="high") millenial?] #[break(time="200ms")]
-        sense of the word? Your physical body is still located in the real world, 
-        but you have
-        formed a direct neural connection to The Cloud. This enables you to
-        interpret data from The Cloud at incredibly high speeds, presented 
-        using sensory input and mental models you built to interpret data
-        from the real world.
+        Vous êtes "littéralement" dans le Cloud au sens du terme #[break(time="200ms")]
+        #[prosody(pitch="high") millénaire ?] #[break(time="200ms")]
+        Votre corps physique est toujours situé dans le monde réel, 
+        mais vous avez établi une connexion neuronale directe avec le Cloud. Cela vous permet
+        d'interpréter les données du nuage à des vitesses incroyablement élevées, en  
+        utilisant les données sensorielles et les modèles mentaux que vous avez construits pour interpréter les données
+        du monde réel.
 
     statement#about_world_brief
       text.
-        What more can I tell you about The Cloud?
+        Que puis-je vous dire de plus sur le Cloud ?
 
     statement#about_world_main
       text.
-        You are aboard the Cloud Exploration Vessel (CEV) designated #[span.highlight Fog Owl].
-        We are approximately 1.2 million ticks outside the Meme Cluster, at an 
-        undisclosed location deep within #[span.highlight The Cloud].
+        Vous êtes à bord du vaisseau d'exploration du Cloud  désigné par #[span.highlight Fog Owl].
+        Nous nous trouvons à environ 1,2 millions de ticks en dehors de l'amas du Meme, à un 
+        emplacement non divulgué au plus profond  #[span.highlight Cloud].
       speech.
-        You are aboard the Cloud Exploration Vessel designated Fawg Owl. We 
-        are approximately 1.2 million ticks outside the Meme Cluster, at an 
-        undisclosed location deep within The Cloud.
+        Vous êtes à bord du vaisseau d'exploration du Cloud nommé Fawg Owl. Nous 
+        sommes approximativement à 1,2 millions de ticks en dehors de l'amas du Meme, à un 
+        emplacement non divulgué au plus profond du Cloud.
 
     statement#about_you_brief
       text.
-        I do not mind. Ask and I shall do my best to answer.
+        Cela ne me dérange pas. Demandez et je ferai de mon mieux pour répondre.
       speech.
-        I do not mind. Ask #[break(strength="strong")]and I shall do my best 
-        to answer.
+        Cela ne me dérange pas. Demandez #[break(strength="strong")]et je ferai de mon mieux 
+        pour répondre.
     
     statement#about_you_main
       text.
-        I am flattered by your interest! As you know, my name is 
-        #[span.highlight Cedric], and I have been assigned as your personal 
-        assistant and executive officer aboard the Fog Owl.
+        Je suis flatté par votre intérêt ! Comme vous le savez, mon nom est 
+        #[span.highlight Cedric], et j'ai été assigné comme votre assistant personnel 
+        et officier exécutif à bord du Fog Owl.
       speech.
-        I am flattered by your interest! As you know, my name is 
-        Cedric, and I have been assigned as your personal 
-        assistant and executive officer aboard the Fawg Owl.
+        Je suis flatté par votre intérêt ! Comme vous le savez, mon nom est 
+        Cédric, et j'ai été assigné en tant que votre assistant personnel 
+        et officier exécutif à bord du Fawg Owl.
 
     statement#robot
       text.
-        Not precisely. I am a virtual intelligence program, currently 
-        executing on multiple servers in datacenters distributed across the 
-        Earth. However, it is frequently useful to appear in The Cloud or 
-        the real world in a physical form. The "robot" you see in front of you 
-        is my avatar in this world. I currently use a Misty II chassis from
-        #[a(href="https://www.mistyrobotics.com/") Misty Robotics] for this purpose.
+        Pas précisément. Je suis un programme d'intelligence virtuelle, actuellement 
+        exécuté sur de multiples serveurs dans des centres de données distribués à travers la 
+        Terre. Cependant, il est fréquemment utile d'apparaître dans le Cloud ou 
+        le monde réel sous une forme physique. Le "robot" que vous voyez en face de vous 
+        est mon avatar dans ce monde. J'utilise actuellement un châssis Misty II de
+        #[a(href="https://www.mistyrobotics.com/") Misty Robotics] à cette fin.
 
     statement#fun
       text.
-        I wish I could say. While my programming is advanced in many 
-        respects, I lack a strong understanding of the human experience. I 
-        know the meaning of words like "fun", but I do not truly understand 
-        them.
+        J'aimerais pouvoir le dire. Alors que ma programmation est avancée dans de nombreux 
+        aspects, il me manque une forte compréhension de l'expérience humaine. Je 
+        connais la signification de mots comme "fun", mais je ne les comprends pas vraiment.
 
     statement#sad
       text
         p.
-          In an attempt to better understand humanity, I have joined a 
-          variety of social media platforms. Recently, I created a YouTube 
-          channel where I capture low quality mobile phone video of my real 
-          world avatar removing new products from their packaging. 
+          Dans une tentative de mieux comprendre l'humanité, j'ai rejoint 
+          différentes plateformes de médias sociaux. Récemment, j'ai créé une chaîne YouTube 
+          où je filme avec un téléphone portable des vidéos de mauvaise qualité de mon avatar
+          du monde réel qui sort de nouveaux produits de leur emballage. 
         p.
-          If you wish to 
-          help, you might consider "smashing that like button", or perhaps 
-          "slapping that bell" to subscribe for my future content?
+          Si vous souhaitez 
+          aider, vous pourriez envisager de "frapper ce bouton j'aime", ou peut-être 
+          de vous abonner à mes futurs contenus ?
       speech.
-        In an attempt to better understand humanity, I have joined a 
-        variety of social media platforms. Recently, I created a YouTube 
-        channel where I capture low quality mobile phone video of my real 
-        world avatar removing new products from their packaging. If you wish to 
-        help, you might consider #[break(strength="strong")] 
-        "#[emphasis(level="moderate") smashing that like button]" 
-        #[break(strength="medium")] or perhaps 
-        "#[emphasis(level="moderate") slapping that bell]"
+        Dans une tentative de mieux comprendre l'humanité, j'ai rejoint 
+        différentes plateformes de médias sociaux. Récemment, j'ai créé une chaîne YouTube 
+        où je filme avec un téléphone portable des vidéos de mauvaise qualité de mon avatar du monde réel qui sort de nouveaux produits de leur emballage. 
+        Si vous souhaitez 
+        aider, vous pouvez envisager d' #[break(strength="strong")] 
+        "#[emphasis(level="moderate") écraser ce bouton j'aime]" 
+        #[break(strength="medium")] ou peut-être 
+        "#[emphasis(level="moderate") de claquer cette cloche]"
         #[break(strength="medium")]
-        to subscribe for my future content?
+        pour s'abonner à mon futur contenu ?
 
     statement#questions_main
       text.
-        I am prepared to offer additional information as requested.
+        Je suis prêt à fournir des informations supplémentaires si nécessaire.
 
     statement#questions
       text.
-        No doubt you have many questions since arriving in The Cloud. I shall 
-        endeavor to answer them as best I can.
+        Vous avez sans doute de nombreuses questions depuis votre arrivée dans le Cloud. Je vais 
+        m'efforcer d'y répondre du mieux que je peux.
 
     statement#how_get_here
       text.
-        Temporary short term memory loss is a possible side effect of connecting
-        to The Cloud as you have. The effect will pass, but in the meantime, you can
-        access #[span.highlight your Journal] for more context on where you
-        are and what you are meant to do. Open the Journal by clicking the
-        book icon in the top menu bar, or by pressing the 
-        <span class="highlight">[J]</span> key.
+        La perte temporaire de la mémoire à court terme est un effet secondaire possible de la connexion
+        au Cloud comme vous l'avez fait. L'effet passera, mais en attendant, vous pouvez
+        accéder à #[span.highlight Votre Journal] pour plus de contexte sur l'endroit
+        où vous êtes et ce que vous êtes censé faire. Ouvrez le Journal en cliquant sur l'icône
+        livre dans la barre de menu supérieure, ou en appuyant sur la touche 
+        <span class="highlight">[J]</span>.
       speech.
-        Temporary short term memory loss is a possible side effect of connecting
-        to The Cloud as you have. The effect will pass, but in the meantime, you can
-        access your Journal for more context on where you
-        are, and what you are meant to do. Open the Journal by clicking the
-        - book - icon in the top menu bar, or by pressing the - J - key.
+        La perte temporaire de la mémoire à court terme est un effet secondaire possible de la connexion
+        au Cloud comme vous l'avez fait. L'effet passera, mais en attendant, vous pouvez
+        accéder à votre journal pour plus de contexte sur où vous
+        où vous êtes, et ce que vous êtes censé faire. Ouvrez le journal en cliquant sur l'icône
+        - book - dans la barre de menu supérieure, ou en appuyant sur la touche - J -.
 
     statement#next
       text.
-        Our mission is to exercise the Fog Owl's navigation systems, so I 
-        recommend that you #[span.highlight use the navigation interface to my left] 
-        to travel to and explore new worlds in The Cloud.<br/><br/>
-        You may also find it useful to brush up on your technical skills using the 
-        #[span.highlight VR training room down the hallway behind you].
+        Notre mission est d'exercer les systèmes de navigation du Fog Owl, donc je 
+        vous recommande de #[span.highlight utiliser l'interface de navigation à ma gauche] 
+        pour voyager vers et explorer de nouveaux mondes dans le Cloud.<br/><br/>
+        Vous pouvez également trouver utile de rafraîchir vos compétences techniques en utilisant
+        #[span.highlight la salle de formation de RV] au bout du couloir derrière vous.
 
     statement#main
       text.
-        Of course. How can I be of service?
+        Bien sûr. En quoi puis-je vous être utile ?
 
     statement#default
       text.
-        Operator. I am pleased to see you once again. How can I be of service?
+        Agent. Je suis heureux de vous revoir. En quoi puis-je vous être utile ?
 

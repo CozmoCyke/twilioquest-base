@@ -1,14 +1,14 @@
 mixin dossier
   response#dossier.
-    [checks service records] I understand you were also a child actor?
+    [checks service records]J'ai cru comprendre que vous étiez également un enfant acteur ?
 
 mixin about
   response#about.
-    Could you remind me who you are, and what you do on the ship?
+    Pouvez-vous me rappeler qui vous êtes, et ce que vous faites sur le vaisseau ?
 
 mixin whats_this
   response#whats_this.
-    What is that platform behind you?
+    Quelle est cette plateforme derrière vous ?
 
 conversation(display_name="Mica")
   case lastResponse
@@ -36,27 +36,27 @@ conversation(display_name="Mica")
   statements
     statement#dossier
       text.
-        How did that get in there?! It's true, but my career was short and not 
-        all that successful. My most famous role was as an anthropomorphic fruit.
-        I performed a memorable song and dance number impressing upon children the 
-        importance of eating five servings of fruits and vegetables a day.<br/><br/>
-        So if you're ever on a mission where you need someone to pretend they're 
-        an apple, I've got you covered.
+        Comment c'est arrivé là ? ! C'est vrai, mais ma carrière était courte et n'a pas été 
+        si réussie que ça. Mon rôle le plus célèbre était celui d'un fruit anthropomorphe.
+        J'ai fait une chanson mémorable et un numéro de danse pour faire comprendre aux enfants 
+        l'importance de manger cinq portions de fruits et légumes par jour.<br/><br/>
+        Donc, si vous êtes un jour en mission et que vous avez besoin de quelqu'un pour prétendre être 
+        une pomme, je vous couvre.
     
     statement#whats_this
       text.
-        That's the <span class="highlight">navigation map</span>. You can use the 
-        nav map to travel to a destination in The Cloud. We've highlighted a few 
-        hot spots on the map that we think could use your attention. You should 
-        visit these locations whenever you have time.
+        C'est la <span class="highlight">carte de navigation</span>. Vous pouvez utiliser la 
+        carte de navigation pour vous rendre à une destination dans le Cloud. Nous avons mis en évidence quelques 
+        points importants de la carte qui, selon nous, méritent votre attention. Nous vous conseillons de 
+        visiter ces endroits dès que vous en avez le temps.
 
     statement#about
       text.
-        Oh, sure - I'm Mica, your communications officer aboard the Fog Owl. In 
-        addition to being fluent in several languages, I can help handle 
-        sensitive negotiations or resolve conflicts with anyone we encounter 
-        while exploring The Cloud. 
+        Oh, bien sûr - je suis Mica, votre officier de communication à bord du Fog Owl. Sur 
+        en plus de parler couramment plusieurs langues, je peux vous aider à gérer 
+        des négociations sensibles ou résoudre des conflits avec quiconque nous rencontrons 
+        pendant que nous explorons le Cloud. 
 
     statement#default
       text.
-        Hey Operator! Where are we off to today?
+        Hé, agent ! Où allons-nous aujourd'hui ?

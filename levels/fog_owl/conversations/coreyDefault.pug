@@ -1,14 +1,14 @@
 mixin dossier
   response#dossier.
-    [checks service records] It says you go by the nickname of "Hurricane"?
+    [checks service records] Il est écrit que vous êtes connu sous le surnom de " Ouragan " ?
 
 mixin defensive_systems
   response#defensive_systems.
-    Does the Fog Owl have any defensive capabilities?
+    Le Fog Owl a-t-il des capacités défensives ?
 
 mixin about
   response#about.
-    Could you remind me who you are, and what you do on the ship?
+    Pouvez-vous me rappeler qui vous êtes, et ce que vous faites sur le vaisseau ?
 
 conversation(display_name="Corey")
   case lastResponse
@@ -36,24 +36,24 @@ conversation(display_name="Corey")
   statements
     statement#dossier
       text.
-        That's absolutely right. It kind of emerged from Twitch chat, and it
-        stuck. You should <a href="https://www.twitch.tv/cldubya">hang out on the stream sometime</a>.
-        Chat can fill you in on the details.
+        C'est tout à fait exact. Ça a en quelque sorte émergé du chat de Twitch, et c'est
+        ça a collé. Vous devriez <a href="https://www.twitch.tv/cldubya">surfer sur le flux un jour</a>.
+        Le chat peut vous renseigner sur les détails.
 
     statement#defensive_systems
       text.
-        Theoretically, yes. In reality, not really. Our navigational shields are 
-        functioning normally, but our deflector shields and weapons systems are 
-        completely offline. I'm working with Ryan and the engineers back at base
-        to patch these systems, but I don't have an ETA on that work.<br/><br/>
-        Try not to start any trouble before then, alright?
+        En théorie, oui. En réalité, pas vraiment. Nos boucliers de navigation 
+        fonctionnent normalement, mais nos boucliers déflecteurs et nos systèmes d'armes sont 
+        complètement déconnectés. Je travaille avec Ryan et les ingénieurs de la base
+        pour patcher ces systèmes, mais je n'ai pas de délai pour ce travail.<br/><br/>
+        Essayez de ne pas créer de problèmes avant, d'accord ?
 
     statement#about
       text.
-        I'm Corey, security and tactical officer aboard the Fog Owl. If
-        there's trouble, that's when I go to work. Hopefully, I won't go to
-        work that often.
+        Je suis Corey, officier de sécurité et de tactique à bord du Fog Owl. Si
+        il y a des problèmes, c'est là que je vais travailler. Avec un peu de chance, je n'irai pas
+        au travail si souvent.
 
     statement#default
       text.
-        Operator, always a pleasure. What can I do for you?
+        Agent, c'est toujours un plaisir. Que puis-je faire pour vous ?

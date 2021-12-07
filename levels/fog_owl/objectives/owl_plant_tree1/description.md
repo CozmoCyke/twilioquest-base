@@ -1,9 +1,9 @@
-# Plant a Tree!
+# Plantez un arbre !
 
-You can [support reforestation efforts in Australia](https://twil.io/tq-trees) by playing TwilioQuest. For the first 10,000 players who complete this objective (and others like it scattered throughout the game), Twilio will donate $1.00 to plant a tree. So far, TwilioQuest players have planted thousands of trees!
+Vous pouvez [soutenir les efforts de reforestation en Australie] (https://twil.io/tq-trees) en jouant à TwilioQuest. Pour les 10 000 premiers joueurs qui rempliront cet objectif (et d'autres similaires disséminés dans le jeu), Twilio fera un don de 1 dollar pour planter un arbre. Jusqu'à présent, les joueurs de TwilioQuest ont planté des milliers d'arbres !
 
-All you need to do to plant one more is click *HACK*.
+Pour en planter un de plus, il vous suffit de cliquer sur *HACK*.
 
-## Plant More Trees!
+## Planter plus d'arbres !
 
-Scattered throughout the game, there are more chests like this one that enable you to plant trees. See if you can find them all!
+Disséminés dans le jeu, d'autres coffres comme celui-ci vous permettent de planter des arbres. Essayez de les trouver tous !

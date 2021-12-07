@@ -1,12 +1,12 @@
 {
-  "title": "Fog Owl: Plant a Tree!",
-  "description": "Playing TwilioQuest supports reforestation in Australia. Click <strong>HACK</strong>, and Twilio will donate a dollar to plant a tree!",
+  "title": "Fog Owl: Plantez un arbre !",
+  "description": "Jouer TwilioQuest soutient la reforestation en Australie. Cliquez sur <strong>HACK</strong>, et Twilio fera don d'un dollar pour planter un arbre !",
   "validation_fields": [
     {
       "name": "prompt",
       "type": "prompt",
       "placeholder": "",
-      "label": "Click HACK to plant a tree."
+      "label": "Cliquez sur HACK pour planter un arbre."
     }
   ],
   "show_ide": false,

@@ -19,9 +19,8 @@ async function handleTutorial(event, world, worldState) {
   });
   world.showNotification(`
     <i>
-      So this is the Fog Owl!<br/><br/>That platform looks like the <em>navigation 
-      system</em> - I should be able to use it to travel to different parts of
-      The Cloud.
+    C'est donc le Fog Owl !<br/><br/>Cette plateforme ressemble au <em>système de navigation</em>. - 
+    Je devrais être capable de l'utiliser pour voyager dans différentes parties du Cloud.
     </i>
   `);
   await world.wait(6000);
@@ -32,8 +31,8 @@ async function handleTutorial(event, world, worldState) {
   });
   world.showNotification(`
     <i>
-      This area looks like some kind of VR training simulator.<br/><br/> I bet there are
-      some training sims that can help <em>build my technical skills</em>!
+    Cette zone ressemble à une sorte de simulateur de formation de Réalité Virtuelle.<br/><br/>Je parie qu'il existe
+    des simulateurs de formation qui peuvent aider à <em>développer mes compétences techniques</em> !
     </i>
   `);
   await world.wait(6000);
@@ -41,7 +40,7 @@ async function handleTutorial(event, world, worldState) {
   await world.tweenCameraToPlayer();
   world.showNotification(`
     <i>
-      Time to get started!<br/><br/> I might want to say hi to Cedric and the crew as well.
+    Il est temps de commencer !<br/><br/>Je pourrais aussi dire bonjour à Cédric et à l'équipe.
     </i>
   `);
   world.enablePlayerMovement();
